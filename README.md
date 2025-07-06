@@ -24,4 +24,4 @@ python -m venv venv
 pip install -r requirements.txt
 
 # アプリの実行
-streamlit run new_prime_finder.py
+streamlit run prime_finder_app.py
