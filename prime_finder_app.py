@@ -2,6 +2,12 @@ from math import sqrt
 
 import streamlit as st
 
+st.set_page_config(
+    page_title="最も近い素数を表示するアプリ",
+    page_icon="🔍",
+    layout="centered",
+)
+
 
 # 素数判定
 @st.cache_data
